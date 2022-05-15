@@ -11,7 +11,7 @@ function buildMainCharacter(name, age, pronouns) {
 }
 
 function saveReview(string, reviews) {
-  //if (reviews includes this string
+  //if reviews includes this string
     if (reviews.includes(string)) {
       //don't add string again
       return;
